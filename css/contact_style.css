@@ -1,5 +1,36 @@
+
+/*font for web*/
+.font-title{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.font-caption{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.font-text{
+
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 22px;
+}
+.font-note{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 15px;
+}
+/*done css of font for web*/
+
+
 .nav-item {
     position: relative;
+}
+.navbar {
+    background-color: white;
 }
 .nav-item a {
     font-size: 20px;
@@ -75,20 +106,22 @@ body {
 
 
 
-.position-relative {
-    height: 100vh;
-    background-image: url(../image/banner/banner1.jpg);
+.banner-one{
+
+    height: 400px;
+
+    display: flex;
+
+}
+
+.banner-two{
+    height: auto;
     width: 100%;
-    background-size: cover;
-    background-position: center;
+    margin: auto;
+    align-items: center;
 }
-.position-absolute {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.7);
-}
+
+
 
 
 .contact-msg {
@@ -109,12 +142,3 @@ body {
 
 
 
-
-
-
-
-
-footer {
-    background-color: #030407;
-    color: #FFFFCC;
-}

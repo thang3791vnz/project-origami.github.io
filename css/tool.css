@@ -10,6 +10,11 @@
 .nav-item a:hover {
     color: black;
 }
+
+.navbar-toggler-icon{
+    display: block;
+    margin: auto;
+}
 .navbar ul li a.nav-link:before {
     position: absolute;
     bottom: -5px;
@@ -64,9 +69,9 @@
 
 
 .font-text{
-    text-align: center;
+
     font-family:'Barlow Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 .font-note{
     text-align: center;
@@ -95,24 +100,6 @@
 
 
 
-/*banner */
-.banner{
-    margin-top: 65px ;
-}
-.banner-one{
-    height: auto;
-    width: auto;
-    margin: auto;
-}
-
-.banner-two{
-    height: auto;
-    width: 100%;
-    margin: auto;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-}
-/*banner done */
 
 
 /*nav--jqery*/
@@ -220,8 +207,33 @@
 
 
 
+.banner-one{
 
-.footer {
-    background-color: #030407;
-    color: #FFFFCC;
+    height: 400px;
+
+    display: flex;
+
 }
+
+.banner-two{
+    height: auto;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.banner-text1{
+
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 60px;
+}
+
+.banner-text2{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    margin: 2px auto;
+    display: block;
+}
+
+

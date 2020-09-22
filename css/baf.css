@@ -1,3 +1,31 @@
+
+/*font for web*/
+.font-title{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.font-caption{
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.font-text{
+
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 22px;
+}
+.font-note{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 15px;
+}
+/*done css of font for web*/
+
+
 .nav-item {
     position: relative;
 }
@@ -46,17 +74,39 @@
     background-color: #ffffff;
 }
 
-.banner {
-    margin-top: 100px;
-}
 
-.banner img {
-    height: 100%;
-    width: 100%;
-    display: block;
-}
 
 .baf-image{
     width: 100%;
     height: 100%;
 }
+.banner-one{
+
+    height: 400px;
+
+    display: flex;
+
+}
+
+.banner-two{
+    height: auto;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.banner-text1{
+
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    font-size: 60px;
+}
+
+.banner-text2{
+    text-align: center;
+    font-family:'Barlow Condensed', sans-serif;
+    margin: 2px auto;
+    display: block;
+}
+
+
